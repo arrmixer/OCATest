@@ -86,47 +86,55 @@ public class Main {
 ////        System.out.println(f);
 //
 
-       Glider2 glider2 = new Glider2();
-        System.out.println(glider2.glide("a"));
-        System.out.println(glider2.glide("a", "b"));
-        System.out.println(glider2.glide(1));
+//       Glider2 glider2 = new Glider2();
+//        System.out.println(glider2.glide("a"));
+//        System.out.println(glider2.glide("a", "b"));
+//        System.out.println(glider2.glide(1));
+//
+//        List<Animal> animals = new ArrayList<>();
+//        animals.add(new Animal("fish",false, true));
+//        animals.add(new Animal("kangaroo", true, false));
+//        animals.add(new Animal("rabbit",true, false));
+//        animals.add(new Animal("turtle", false, true));
+//
+//        print(animals, Animal::isCanHop);
+//        print(animals, Animal::isCanSwim);
+//        print(animals, a -> a.isCanHop());
+//        print(animals, a -> a.isCanSwim());
+//
+//        List<String> bunnies = new ArrayList<>();
+//        bunnies.add("long ear");
+//        bunnies.add("floppy");
+//        bunnies.add("hoppy");
+//        System.out.println(bunnies);
+//        bunnies.removeIf(s -> s.charAt(0) != 'h');
+//        System.out.println(bunnies);
+//
+//        System.out.println(howMany(true, new boolean[2]));
+//        System.out.println(square(2));
+//
+//        int value = 9;
+//        long result = square(value);
+//        System.out.println(result);
+//        System.out.print(Order2.result + " ");
+//        System.out.print(Order2.result + " ");
+//        new Order2();
+//        new Order2();
+//        new Order2();
+//        System.out.println(Order2.result + " ");
+//
+//        Order order = new Order("f");
+//        order = new Order();
+//        System.out.println(order.value);
 
-        List<Animal> animals = new ArrayList<>();
-        animals.add(new Animal("fish",false, true));
-        animals.add(new Animal("kangaroo", true, false));
-        animals.add(new Animal("rabbit",true, false));
-        animals.add(new Animal("turtle", false, true));
-
-        print(animals, Animal::isCanHop);
-        print(animals, Animal::isCanSwim);
-        print(animals, a -> a.isCanHop());
-        print(animals, a -> a.isCanSwim());
-
-        List<String> bunnies = new ArrayList<>();
-        bunnies.add("long ear");
-        bunnies.add("floppy");
-        bunnies.add("hoppy");
-        System.out.println(bunnies);
-        bunnies.removeIf(s -> s.charAt(0) != 'h');
-        System.out.println(bunnies);
-
-        System.out.println(howMany(true, new boolean[2]));
-        System.out.println(square(2));
-
-        int value = 9;
-        long result = square(value);
-        System.out.println(result);
-        System.out.print(Order2.result + " ");
-        System.out.print(Order2.result + " ");
-        new Order2();
-        new Order2();
-        new Order2();
-        System.out.println(Order2.result + " ");
-
-        Order order = new Order("f");
-        order = new Order();
-        System.out.println(order.value);
-
+        String numbers = "2468";
+        int total = 0;
+        total += numbers.indexOf("6");
+        total += numbers.indexOf("9");
+        char ch = numbers.charAt(3);
+        System.out.println(total + " " + ch);
+        int a = 12%5;
+        System.out.println(a);
 
 
 
